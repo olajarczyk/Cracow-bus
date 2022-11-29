@@ -1,0 +1,270 @@
+body {
+  font-family: Noto Sans, sans-serif;
+  margin: 0;
+  bottom:0;
+}
+
+#one{
+background-image: url(http://localhost:8080/krakow-bus/assets/images/turysta.svg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 0% 100%;
+}
+
+.row {
+  height: 100vh;
+  width:100vw;
+}
+
+.container {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+select {
+  border: 2px solid #03989e !important;
+  max-width: 32.2rem;
+}
+
+label {
+  font-size: 1rem;
+padding: 1rem 0 !important;
+font-weight: 600;
+}
+
+#form {
+  margin-top: 15%;
+  width: 20rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h1::before{
+  margin-right: 1rem;
+}
+
+.user-icon::before{
+  margin-right: 1rem;
+}
+
+.form-group {
+  margin-bottom: 0rem;
+}
+
+.form-control{
+  background-color: #e9e9ed;
+}
+
+.user-icon{
+  font-size: 1.5rem;
+font-weight: 600;
+}
+
+.flight-icon::before{
+  margin-right: 1rem;
+}
+
+.flight-icon{
+  font-size: 1.5rem;
+font-weight: 600;
+}
+
+#flight {
+  border: 2px solid #03989e !important;
+max-width: 32.2rem;
+border-radius: 5px;
+padding: 0.5rem;
+width: 20rem;
+}
+
+.btn-secondary {
+  margin-top: 20px;
+  background-color: #03989e !important;
+  border:none;
+  width: 8rem;
+  margin-bottom: 40px;
+  color: white;
+}
+.btn-primary{
+  background-color: white !important;
+  border:none;
+  width: 8rem;
+  color: black;
+  width: 20rem;
+  text-align: left;
+  border: 2px solid #03989e !important;
+}
+
+#second{
+  margin-left:10%;
+}
+
+#hidden_div{
+  display:none;
+  margin-top:20px;
+}
+ul{
+  list-style: none;
+}
+.flight-ticket{
+  border: 2px solid #03989e !important;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Noto Sans, sans-serif;
+  font-size: 1rem;
+  width: 340px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+
+#flight-id{
+  display: flex;
+}
+
+#departure{
+  padding-right: 10px;
+}
+
+#date{
+  padding-right: 10px;
+}
+
+.flight-ticket:focus{
+box-shadow: 5px 5px #00c2cb;
+background-color: #03989e;
+color: white;
+}
+
+@media only screen and (max-width: 768px) {
+#one{
+  display: none;
+}
+}
+#back_index{
+margin-right: 10px;
+background-color: black !important;
+color: white;
+}
+
+#second_flight{
+margin-top: 10%;
+}
+
+#flight_h1{
+font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#flight_h1::before{
+content: none;
+}
+
+#one_flight{
+background-image: url(http://localhost:8080/krakow-bus/assets/images/background-flight.svg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 0% 100%;
+}
+
+@media only screen and (max-width: 768px) {
+#one_flight{
+  display: none;
+}
+#second_flight{
+  margin-top: 40px;
+}
+}
+
+#hidden_div_p {
+margin-top: 40px;
+}
+
+.counter_conatiner {
+display: flex;
+padding: 6px;
+flex-direction: column;
+}
+span {
+font-size: 1.5rem;
+padding: 2px 12px;
+margin-left: 16px;
+margin-right: 16px;
+border-radius: 4px;
+color: black;
+}
+
+#output{
+color: #03989e;
+}
+
+#output_two{
+color: #03989e;
+}
+button {
+font-size: 1.5rem;
+cursor: pointer;
+background-color: transparent;
+border: 0px;
+}
+
+.counter_p{
+font-size: 1rem;
+}
+
+#subtract{
+margin-left: 50px;
+}
+
+#subtract_two {
+margin-left: 50px;
+}
+
+#result{
+font-size: 1rem;
+padding: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+#end_result{
+font-size: 1rem;
+padding: 0px;
+margin-left: 5px;
+margin-right: 0px;
+}
+
+#children_result{
+font-size: 1rem;
+padding: 0px;
+margin-left: 5px;
+margin-right: 0px;
+display:none;
+}
+
+#child_result{
+font-size: 1rem;
+padding: 0px;
+margin-left: 5px;
+margin-right: 0px;
+display:none;
+}
+
+#adult_result{
+font-size: 1rem;
+padding: 0px;
+margin-left: 5px;
+margin-right: 0px;
+}
+
+
+
+
+
+
