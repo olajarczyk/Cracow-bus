@@ -5,7 +5,7 @@ body {
 }
 
 #one{
-background-image: url(http://localhost:8080/krakow-bus/assets/images/turysta.svg);
+background-image: url(/assets/images/turysta.svg);
 background-size: contain;
 background-repeat: no-repeat;
 background-position: 0% 100%;
@@ -142,6 +142,10 @@ background-color: #03989e;
 color: white;
 }
 
+#next_two{
+  background-color: #03989e;
+}
+
 @media only screen and (max-width: 768px) {
 #one{
   display: none;
@@ -167,7 +171,7 @@ content: none;
 }
 
 #one_flight{
-background-image: url(http://localhost:8080/krakow-bus/assets/images/background-flight.svg);
+background-image: url(/assets/images/background-flight.svg);
 background-size: contain;
 background-repeat: no-repeat;
 background-position: 0% 100%;
@@ -261,6 +265,13 @@ font-size: 1rem;
 padding: 0px;
 margin-left: 5px;
 margin-right: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+#legend {
+width: 400px;
+height: 400px;
+}
 }
 
 
